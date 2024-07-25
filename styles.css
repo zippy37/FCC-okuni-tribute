@@ -69,7 +69,7 @@ background-size: 70% 1;
 }
 .quote {
   display: flex;
-  margin: 5px 0 -5px 0;
+  justify-content: center;
 
 }
 
