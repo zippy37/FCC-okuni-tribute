@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Amiri");
+
+#title, #caption, #headline {
+text-align:center;
+color: rgb(243,217,181);
+text-shadow: -1px -1px 5px rgb(90,16,3), 1px -1px 5px rgb(90,16,3), 1px 1px 5px rgb(190,16,3),
+    1px 1px 5px rgb(90,16,3);
+  font-family: "Noto Serif JP";
+}
+
+
+#title {
+  font-weight: 900;  
+  font-size: 40px;
+}
+
+
+#caption {
+  font-weight: 200;
+  font-size: 30px;
+}
+
+#main {
+  background: hsl(79, 28%, 42%);
+  padding: 30px 30px 20px 30px;
+  margin: 0;
+  border-radius: 10px;
+  border: 10px ridge black;
+  
+}
+
+
+#img-div {
+  background-color: rgba(243,217,181,80%);
+background-size: 70% 1;
+  padding: 1.5em 2.5em 0.7em 1.5em;
+  border-radius: 5px;
+  margin: auto;
+  border: 10px ridge black;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 10px ridge rgb(255,173,65);
+}
+
+body {
+  margin: 0;
+  background-color: rgba(243,217,181,80%);
+background-image: linear-gradient(90deg, transparent 50%, rgba(173,45,4,70%) 50%);
+background-size: 70% 1;
+  padding: 50px;
+  
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 1000;
+  text-shadow: 0.5px 0.5px 0px rgb(90,16,3);
+}
+
+.underline {
+  text-decoration: underline;
+}
+.quote {
+  display: flex;
+  margin: 5px 0 -5px 0;
+
+}
+
+p {
+  letter-spacing: -0.5px;
+  color: rgb(90,16,3);
+  font-family: "Amiri";
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#img-caption {
+  font-weight: 700;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+#headline {
+  font-size: 25px;
+
+}
+
+#line {
+  border: 5px double rgb(43,51,30);
+  max-width: 500px;
+  margin: 0 auto 0 auto;
+}
+
+.date {
+  letter-spacing: -3px;
+  font-weight: 800;
+  text-align: left;
+}
+
+ul {
+  max-width: 600px;
+  letter-spacing: -1px;
+  list-style: none;
+  font-size: 20px;
+  font-family: "Amiri";
+  color: rgb(90,16,3);
+  font-weight: 500;
+  margin: 1em 0 0 -2em;
+
+}
+
+li {
+  text-align: left;
+  line-height: 1.1em;
+  margin: auto auto 1em auto;
+  padding: 0;
+}
+
+footer {
+  margin: 2.5em 0 -2em 0;
+  text-align: left;
+  font-family: "Amiri"
+  letter-spacing: -1px;
+  font-size: 12px;
+  padding-bottom: 1.5em;
+}
